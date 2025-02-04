@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center>
+
+    <h2 class="word-expression"></h2>
+</center>
+</body>
+</html>
+<style>
+    .word-expression::before {
+        font-size: 40px;
+        content: "Hello";
+        width:12px;
+        animation: expressing 4s infinite;
+    }
+    @keyframes expressing {
+        0%{
+            transition: 2s;
+            width:80px;
+            content: 'My name is Caleb welcome!';
+            color: red;
+        }
+        20%{
+            transition: 2s;
+            width:80px;
+            content: 'I ve studied in CSAMZ TSS i have studied  SOD!';
+            color: blue;
+        }
+        40%{
+            transition: 2s;
+            width:80px;
+            content: "I am telling!";
+            color:tomato;
+        }
+        60%{
+            transition: 2s;
+            width:80px;
+            content: "May be you heard more about me and yet";
+            color: mediumseagreen;
+        }
+        80%{
+            transition: 2s;
+            width:80px;
+            content: "Here is the main terms";
+            color: black;
+        }
+        100%{
+            transition: 2s;
+            width:80px;
+            content:"Thanks for listening!!";
+            color:darkorange;
+        }
+
+        
+    }
+</style>
