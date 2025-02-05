@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST">
+
+        <h1 id="my-head">Amagi</h1>
+        <input type="number" id="number1"><br>
+        <input type="number2" id="number2"><br>
+        <input type="submit" value="Submit">
+        <h2 id="answer"></h2>
+    </form>
+</body>
+<script>
+    var myText = document.getElementById('my-head').innerHTML;
+    var num1 = document.getElementById('number1').innerHTML;
+    var answer = document.getElementById('answer').innerHTML;
+    var num2 = document.getElementById('number2').innerHTML;
+    var sol = num1 + num2;
+    console.log("Number of " + myText + " is: " + sol);
+</script>
+
+</html>
