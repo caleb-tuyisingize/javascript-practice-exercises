@@ -1,0 +1,77 @@
+.card {
+    width: 40%;
+    background-color: rgb(1, 1, 24);
+    min-height: 500px;
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.name {
+    color: #fff;
+    /* font-size: 2-px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name2 {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(215, 116, 44);
+}
+
+.blog {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.email {
+    color: rgb(53, 46, 46);
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80px;
+    border: none;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.in {
+    color: whitesmoke;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80px;
+    background-color: rgb(36, 98, 180);
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+}
+
+.about {
+    color: #fff;
+    margin-right: 60%;
+}
+
+.about-content {
+    text-align: left;
+    /* margin-right: 60%; */
+    width: 80%;
+    color: #fff;
+}
+
+.copy {
+    color: whitesmoke;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    background-color: rgb(0, 1, 2);
+    height: 30px;
+    font-size: 10px;
+    border: none;
+    border-radius: 7px;
+}
