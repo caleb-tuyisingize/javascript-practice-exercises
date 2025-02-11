@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.house {
+    width: 100%;
+    top: 0px;
+}
+
+.header {
+    background-color: rgb(242, 140, 14);
+    height: 120px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.sect {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.htext {
+    color: rgb(242, 140, 14);
+}
+
+.reg {
+    height: 40px;
+    width: 80%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.rego {
+    height: 40px;
+    width: 12%;
+    color: #fff;
+    background-color: rgb(242, 140, 14);
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    padding: 12px;
+}
+
+.foot {
+    background-color: #fff;
+    color: black;
+    height: 120px;
+}
