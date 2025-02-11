@@ -38,8 +38,9 @@ body {
 }
 
 .rego {
+    font-size: 12px;
     height: 40px;
-    width: 12%;
+    width: 120px;
     color: #fff;
     background-color: rgb(242, 140, 14);
     border: none;
