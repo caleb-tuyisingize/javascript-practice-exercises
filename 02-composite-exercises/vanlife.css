@@ -1,0 +1,68 @@
+        section {
+            width: 60%;
+            align-items: center;
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: whitesmoke;
+        }
+        
+        .van {
+            width: 100%;
+        }
+        
+        .back-to {
+            color: black;
+        }
+        
+        .simplebtn {
+            background-color: rgba(255, 99, 71, 0.861);
+            color: #fff;
+            border: none;
+            width: 70px;
+            height: 28px;
+            border-radius: 5px;
+        }
+        
+        body {
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        h2 {
+            font-weight: 500;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .price {
+            display: flex;
+        }
+        
+        p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .foot-nav {
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background-color: rgba(255, 99, 71, 0.861);
+        }
+        
+        .footer {
+            text-align: center;
+            width: 100%;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background-color: black;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
