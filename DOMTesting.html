@@ -8,7 +8,29 @@
 </head>
 
 <body>
+    <form action="" method="POST" name="forma" onsubmit="validate()">
+        <input type="text" name="name"><br>
 
+        <script>
+            function validate() {
+                let x = document.forms['forma']['name'].value;
+                if (x == "") {
+                    console.write("Please that Field must be filled");
+                    return false;
+                }
+            }
+        </script>
+        <input type="submit" value="Submit" id="sub">
+    </form>
+    <div id="DATE"></div>
+    <p>Bla bla bla</p>
+    <script>
+        document.write(Date());
+    </script>
+    <p>Bla bla bla</p>
 </body>
+<script>
+    document.getElementById('DATE').innerHTML = "Date of Today is :" + Date();
+</script>
 
 </html>
