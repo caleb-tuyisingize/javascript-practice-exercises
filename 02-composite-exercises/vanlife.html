@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="vanlife.css">
 </head>
 
-<body><br><br>
+<body id="bd"><br><br>
     <!-- <center> -->
-    <section>
-        <header>
+    <section id="meme">
+        <header id="hd">
 
             <h1><b> #VANLIFE</b></h1>
+            <div>
+                <button id="hd1" onclick="return theme()">
+                <img src="./img/moon.JPG" alt=""><br>Dark Theme
+            </button>&nbsp;&nbsp;<button id="hd2" onclick="theme2()">
+                <img src="./img/sun.JPG" alt=""><br>Light theme
+            </button>
+            </div>
         </header>
-        <a href="#" class="back-to">Back to all vans</a><br><br>
+        <a id="hd3" href="#" class="back-to">Back to all vans</a><br><br>
         <img class="van" src="van.JPG" alt=""><br><br>
         <button class="simplebtn">Simple</button><br>
         <h2>
@@ -33,5 +40,28 @@
     <footer class="footer"><br> &copy;2022#VANLIFE
     </footer>
 </body>
+<script>
+    function theme() {
+        document.getElementById('bd').style.background = 'black';
+        document.getElementById('bd').style.color = 'aliceblue';
+        document.getElementById('hd').style.color = 'aliceblue';
+        document.getElementById('hd1').style.color = 'aliceblue';
+        document.getElementById('hd2').style.color = 'aliceblue';
+        document.getElementById('hd3').style.color = 'aliceblue';
+        document.getElementById('meme').style.background = 'rgb(36, 35, 35)';
+
+    }
+
+    function theme2() {
+        document.getElementById('bd').style.background = 'white';
+        document.getElementById('bd').style.color = 'black';
+        document.getElementById('hd').style.color = 'black';
+        document.getElementById('hd1').style.color = 'black';
+        document.getElementById('hd2').style.color = 'black';
+        document.getElementById('hd3').style.color = 'black';
+        document.getElementById('meme').style.background = 'aliceblue';
+
+    }
+</script>
 
 </html>
