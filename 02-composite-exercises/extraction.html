@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    const points = [12, 34, 45];
+    let [x, y, z] = points;
+    console.log(x, y, z);
+    const circle = {
+        radius: 10,
+        color: 'orange',
+        getArea: function() {
+            return Math.PI * this.radius * this.radius;
+        },
+        getCircumference: function() {
+            return 2 * Math.PI * this.radius;
+        }
+    };
+    console.log(circle.getArea);
+    let {
+        radius,
+        getArea,
+        getCircumference
+    } = circle;
+    let type = 'quartz';
+    let color = 'rose';
+    let carat = 21.29;
+
+    const gemstone = {
+        type,
+        color,
+        carat,
+        calculateWorth: function() {
+            // will calculate worth of gemstone based on type, color, and carat
+        }
+    };
+    console.log(gemstone);
+    const digits = ["Amata", "Amazi", "Amagi", "Icyayi", "Ikivuguto", "Jui"];
+
+    for (const index in digits) {
+        console.log(digits[index]);
+    }
+    /*
+     * Programming Quiz: Writing a For...of Loop (1-4)
+     */
+
+    const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+
+    // your code goes here
+    for (const numbers of days) {
+        var hejuru = numbers.charAt(0).toUpperCase() + numbers.slice(1);
+        console.log(hejuru);
+    }
+</script>
+
+</html>
