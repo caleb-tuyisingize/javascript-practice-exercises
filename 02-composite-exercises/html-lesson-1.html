@@ -25,9 +25,22 @@
       <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
     </div>
     <div id="media">
-      <h2>Media</h2>
-      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="A Brown Bear"/>
-          <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+      <h2 id="md" >Media</h2>
+      <div class="thing" id="things">
+
+      </div>
+      <img id="img"alt="A Brown Bear"/>
+        
     </div>
   </body>
+  <script>
+document.getElementById("md").onclick = function(){
+  document.getElementById("img").src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg";
+  document.videos.id="vid";
+  // document.createElement(video);
+  document.getElementById("vid").src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4";
+  document.getElementById("vid").style.width="320";
+  document.getElementById("vid").style.height="240";
+}
+  </script>
   
