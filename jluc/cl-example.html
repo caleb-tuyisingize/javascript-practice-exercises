@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="../../javascript-practice-exercises/02-composite-exercises/img/split/cl-example.css">
+</head>
+<body id="bd">
+    
+    <nav class="navbar">
+        <div id="" class="logo">Mysite</div>
+    
+        <ul type="none" class="nav_link">
+            <li> <a href="#home">Home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#">Service</a> </li>
+            <li> <a href="#">Contacts</a> </li>
+            </ul>
+            </nav><br><br><br>
+            <center id="home">
+
+                <div class="welcome" id="welcome">
+                    <h1 class="welcome-me">Welcome To my Script</h1>
+                    <p class="welcome-text">This is a simple website template using HTML, CSS, and JavaScript. It's a great starting point for creating your own responsive website.</p>
+                    <button class="learn-more">Learn More</button><br><br>
+                    <center>
+                    <fieldset class="my-prof">
+                        <legend class="prof-lege">
+                            <img src="../../javascript-practice-exercises/02-composite-exercises/img/1O8A5943_1725534423932.jpg" alt="">
+                            
+                        </legend>
+                        <h1 class="welcome-me">TUYISINGIZE Caleb</h1>
+                        <h2>Fullstack Developer</h2>
+                    </fieldset>
+                </center>
+                </div>
+            </center>
+            <h1 class="lege" id="about"><br><br> About me</h1>
+            <fieldset class="image">
+                <h1>Am a Student of Tumba RP College</h1>
+            </fieldset>
+</body>
+<script>
+let welcome = document.getElementById('welcome');
+let bd = document.getElementById('bd');
+let lastScroll= 0;
+window.addEventListener("scroll",function(){
+    let scrollTop= window.scrollY ||document.documentElement.scrollTop;
+    if(scrollTop > lastScroll){
+        welcome.style.opacity = 1 - scrollTop/500;
+        welcome.style.transition = "1s";
+        // bd.style.;
+    }else{
+    }
+})
+</script>
+</html>
