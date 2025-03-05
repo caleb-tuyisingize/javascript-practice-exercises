@@ -1,0 +1,43 @@
+
+body{
+    background: url(../download.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    justify-content:center;
+    align-items: center;
+
+}
+.gallery .column img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 11px;
+    transition: transform 0.3s ease;
+}
+.gallery{
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(160, 48, 29);
+    border-radius: 22px;
+    padding: 22px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr; 
+    gap: 20px;
+
+    width:80%;
+}
+.gallery .column{
+width:100%;
+height: 400px;
+transition: 0.5s;
+border: 2px solid rgb(160, 48, 29);
+border-radius: 12px;
+}
+.gallery .column:hover{
+width:80%;
+flex-direction: initial;
+height: 400px;
+position: relative;
+transition: 0.5s;
+border: 2px solid rgb(160, 48, 29);
+border-radius: 12px;
+}
