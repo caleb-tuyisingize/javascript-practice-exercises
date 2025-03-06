@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="better()">Check</button>
+    <div class="well" id="well"></div>
+    <div class="well" id="well1"></div>
+    <div id="data"></div>
+    <script>
+        function better(){
+            document.getElementById("well").innerHTML = "Pure Water";
+            let data=document.getElementById("data");
+            
+            data.innerHTML = "The datas are executed";
+            
+            setTimeout(() => {
+                console.log("Async task done!");
+            }, 3000);  // 3 seconds delay
+            
+           
+            document.getElementById("well1").innerHTML = "Hot Water";
+            
+}
+
+ </script>
+</body>
+</html>
